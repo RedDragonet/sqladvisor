@@ -1,4 +1,7 @@
 FROM ubuntu:16.04 
+
+MAINTAINER Tong Zhao <aszt0324@gmail.com>
+
 #COPY ./sources.list /etc/apt/sources.list
 COPY ./percona-release_0.1-4.xenial_all.deb /percona-release_0.1-4.xenial_all.deb
 
