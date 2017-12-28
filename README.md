@@ -46,7 +46,7 @@ sqls=sql1;sql2;sql3....
 
 其中sql.cnf文件的位置需要从本地映射
 -v $PWD:/data  代表的是当前目录映射到docker的/data目录 
-docker run --rm -v $PWD:/data  sqladvisor  -f /data/sql.cnf  -v 1
+docker run --rm -v $PWD:/data  imred/sqladvisor -f /data/sql.cnf  -v 1
 ```
 
 
